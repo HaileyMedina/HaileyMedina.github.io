@@ -1,0 +1,48 @@
+.card {
+    border: 3px solid pink;
+    margin: 24px;
+    padding: 16px;
+    /* offset-x offset-y
+     blur-radius spread-radius
+     color */
+     box-shadow: inset 4px 4px 2px lightblue;
+}
+
+#div_1 {
+    /*
+    serif, sans-serif, monospace,
+    cursive, fantasy
+    */
+    font-family: cursive;
+    font-size: 20px
+    /*px, pt, em, %*/
+}
+
+#div_2 {
+    font-family: monospace;
+    font-weight: bold
+}
+
+#div_3 {
+    font-family: sans-serif;
+}
+
+#div_4 {
+    font-family: fantasy;
+    text-decoration: line-through; 
+}
+
+#div_5 {
+
+}
+
+#div_6 {}
+
+#duck {
+    width: 100px;
+    float: right; /*left or right*/
+    margin: 12px;
+}
+#clear {
+    clear:both; /*left, right, or both */
+}
