@@ -13,12 +13,13 @@
 
 #image_container_2 {
     float: left;
-    padding: 10px
+    padding: 10px;
+    clear: both
 }
 
 nav ul {
     float:left;
-    padding: 30px
+    padding: 30px;
 }
 
 #image_container_3 {
@@ -29,18 +30,17 @@ nav ul {
 #image_container_4 {
     float: right;
     padding: 10px;
+    clear: both;
 
 }
 
 #image_container_5 {
     float: right;
+    padding: 10px;
 }
 
 #image_container_6{
     float: right;
     padding: 10px;
-}
-
-#div_1 {
-    float: right;
+    clear: both
 }
