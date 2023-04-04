@@ -1,9 +1,11 @@
 body {
     margin: 0px;
 }
+
 nav {
     background-color:blueviolet;
 }
+
 ul {
     display: flex;
     justify-content: flex-end;
@@ -12,14 +14,17 @@ ul {
     max-width: 800px;
     margin: 0px auto;
 }
+
 ul li {
     padding: 12px;
 }
+
 li a {
     color: black;
     text-decoration: none;
     font-family: sans-serif;
 }
+
 #Home {
     margin-right: auto;
 }
@@ -34,13 +39,16 @@ li a {
     flex-direction: column;
     width: 100%;
     left: 0px;
-    top: 100%; 
+    top: 75%; 
     opacity: 0;
     visibility: hidden;
-    opacity: 0;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s
+        top 0.5s;
 }
 
-dropdown_container:hover dropdown_menu{
+.dropdown_container:hover .dropdown_menu{
     opacity: 1;
     visibility: visible;
     top: 100%;
