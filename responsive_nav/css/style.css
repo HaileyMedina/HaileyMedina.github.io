@@ -27,7 +27,7 @@ h1 {
 .dropdown_menu {
     background-color: lightgray;
     position: absolute;
-    flex-direction: column;e
+    flex-direction: column;
     width: 100%;
     left: 0px;
     top: 75%; 
@@ -35,7 +35,7 @@ h1 {
     visibility: hidden;
     transition: 
         opacity 0.5s,
-        visibility 0.5s
+        visibility 0.5s,
         top 0.5s;
 }
 .dropdown_container:hover .dropdown_container{
