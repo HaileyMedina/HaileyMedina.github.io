@@ -21,13 +21,13 @@ li a {
 h1 {
     justify-content: center;
 }
-.dropdown_menu {
+.dropdown_container {
     position: relative;
 }
 .dropdown_menu {
     background-color: lightgray;
     position: absolute;
-    flex-direction: column;
+    flex-direction: column;e
     width: 100%;
     left: 0px;
     top: 75%; 
@@ -38,7 +38,7 @@ h1 {
         visibility 0.5s
         top 0.5s;
 }
-.dropdown_menu:hover .dropdown_menu{
+.dropdown_container:hover .dropdown_container{
     opacity: 1;
     visibility: visible;
     top: 100%;
