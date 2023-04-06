@@ -41,19 +41,30 @@ li a {
     visibility: visible;
     top: 100%;
 }
-h1 {
-    padding-left: 200px;
+main {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 #box {
     height: 100px;
     width: 600px;
     background-color: pink;
 }
-#boy {
-    padding: 0px;
-    width: 255px;
+.sale_container {
+    display: flex;
+    flex-wrap: wrap;
 }
-#girl {
-    padding: 0px;
-    width: 255px;
+img {
+    width: 300px;
+    height: 400px;
+}
+#content {
+    background-color: beige;
+    border: 5px solid pink; 
+    border: 5px solid lightblue;
+    border: 5px solid lightgreen;
+    border: 5px solid plum;
+    text-align: center;
+    font-style: sans-serif;
 }
