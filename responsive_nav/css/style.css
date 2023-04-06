@@ -2,6 +2,8 @@ nav {
     background-color: white;
     padding: 24px;
     border: solid black;
+    position: sticky;
+    top: 0px;
 }
 ul {
     display: flex;
@@ -45,6 +47,7 @@ main {
     margin: 0px;
     padding: 0px;
     text-align: center;
+
 }
 #box {
     height: 100px;
@@ -54,17 +57,45 @@ main {
 .sale_container {
     display: flex;
     flex-wrap: wrap;
+    align-items:baseline;
 }
 img {
     width: 300px;
     height: 400px;
+    align-items: flex-end;
+    padding-bottom: 25px;
+    margin:auto;
 }
 #content {
     background-color: beige;
-    border: 5px solid pink; 
-    border: 5px solid lightblue;
-    border: 5px solid lightgreen;
-    border: 5px solid plum;
+    padding: 10px;
+    box-shadow: 0 0 0 8px peachpuff, 
+    0 0 0 12px lightgreen,
+    0 0 0 16px lightblue,
+    0 0 0 20px plum;
     text-align: center;
-    font-style: sans-serif;
 }
+
+/* Desktop breakpoint */
+@media screen and (min-width: 1280px) {
+    #tablet,
+    #mobile {
+        display: none;
+    }
+}
+/* Tablet breakpoints */
+@media screen 
+    and (min-width:768px)
+    and (max-width:1279px) {
+        #desktop,
+        #mobile {
+            display: none;
+        }
+    }
+    /* Mobile breakpoint */
+@media screen and (max-width: 767px) {
+        #desktop,
+        #tablet {
+            display: none;
+        }
+    }
