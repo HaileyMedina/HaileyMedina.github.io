@@ -47,7 +47,7 @@ main {
     margin: 0px;
     padding: 0px;
     text-align: center;
-
+    font-size: xx-large;
 }
 #box {
     height: 100px;
@@ -74,8 +74,11 @@ img {
     0 0 0 16px lightblue,
     0 0 0 20px plum;
     text-align: center;
+    font-display: sans-serif;
 }
-
+div1 {
+    font-size: x-large;
+}
 /* Desktop breakpoint */
 @media screen and (min-width: 1280px) {
     #tablet,
