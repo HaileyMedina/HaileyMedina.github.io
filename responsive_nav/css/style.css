@@ -4,6 +4,7 @@ nav {
     border: solid black;
     position: sticky;
     top: 0px;
+    flex-direction: column;
 }
 ul {
     display: flex;
@@ -79,6 +80,18 @@ img {
 div1 {
     font-size: x-large;
 }
+.shopping_catelog {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shopping_catelog img {
+    box-sizing: border-box;
+    width: 200px;
+    margin: 24px;
+    align-items: center;
+}
+
 /* Desktop breakpoint */
 @media screen and (min-width: 1280px) {
     #tablet,
@@ -102,3 +115,20 @@ div1 {
             display: none;
         }
     }
+
+    #desktop,
+    #tablet,
+    #mobile {
+        padding: 100px;
+        font-size: 36px;
+        text-align: center;
+    }
+@media screen and (max-width:768px) {
+    #desktop,
+    #tablet {
+        display: none;
+    }
+    nav ul {
+        flex-direction:column
+    }
+}
