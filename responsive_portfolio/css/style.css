@@ -58,7 +58,7 @@ footer a:hover {
     grid-auto-rows: minmax(50px, auto);
     grid-template-areas:
         "nav_area nav_area nav_area"
-        "hero_area her_area hero_area"
+        "hero_area hero_area hero_area"
         ". three_cards_area ."
         ". carousel_area ."
         ". gallery_area ."
@@ -75,7 +75,7 @@ nav {
 }
 
 #hero {
-    grid-area: hero_area
+    grid-area: hero_area;
 }
 #three_cards {
     grid-area: three_cards_area;
