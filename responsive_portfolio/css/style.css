@@ -184,4 +184,7 @@ footer ul {
             "two_cards_area"
             "footer_area";
     }
+    nav {
+        flex-direction: column;
+    }
 }
