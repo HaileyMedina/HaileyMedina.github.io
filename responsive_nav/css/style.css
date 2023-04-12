@@ -52,7 +52,7 @@ main {
 }
 #box {
     height: 100px;
-    width: 800px;
+    width: 1000px;
     background-color: pink;
 }
 .sale_container {
@@ -77,6 +77,13 @@ img {
     text-align: center;
     font-display: sans-serif;
 }
+#content h3 {
+    font: message-box
+}
+
+#content h4 {
+    font-size: large
+}
 div1 {
     font-size: x-large;
 }
@@ -86,6 +93,30 @@ div1 {
     justify-content: center;
 }
 .shopping_catelog img {
+    box-sizing: border-box;
+    width: 200px;
+    margin: 24px;
+    align-items: center;
+}
+
+.shopping_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shopping_container img {
+    box-sizing: border-box;
+    width: 200px;
+    margin: 24px;
+    align-items: center;
+}
+/* FAVORITES PAGE */
+.favorites_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.favorites_container img {
     box-sizing: border-box;
     width: 200px;
     margin: 24px;
