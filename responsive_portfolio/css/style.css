@@ -268,23 +268,6 @@ footer ul {
     margin-bottom:24px;
 }
 
-#gallery_1,
-#gallery_2 {
-    grid-template-columns: 1fr;
-}
-#gallery_2 img {
-    width: 100%;
-    height: auto;
-}
-#gallery_4 {
-    max-height: 1900px;
-}
-#gallery_4 img {
-    width: 45%
-}
-#gallery_5 {
-    columns: 2 auto;
-}
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
@@ -311,4 +294,21 @@ footer ul {
         align-items:center;
         margin: 36px 24px 0px;
     }
+}
+#gallery_1,
+#gallery_2 {
+    grid-template-columns: 1fr;
+}
+#gallery_2 img {
+    width: 100%;
+    height: auto;
+}
+#gallery_4 {
+    max-height: 1900px;
+}
+#gallery_4 img {
+    width: 45%;
+}
+#gallery_5 {
+    columns: 2 auto;
 }
