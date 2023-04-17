@@ -108,6 +108,9 @@ footer ul {
     padding: 0;
 }
 
+#carousel_container {
+    margin-bottom: 20px
+}
 /*****************************************************************************
   Button Styles
 *****************************************************************************/
@@ -167,8 +170,8 @@ footer ul {
     margin-top: 0px;
 }
 footer, img {
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
     display: flex;
     justify-content: center;
 }
@@ -195,6 +198,7 @@ footer, img {
         flex-direction: column;
     }
     .card{
-        align-items:center;
+        align-items: center;
         margin: 36px 24px 0px;
     }
+}

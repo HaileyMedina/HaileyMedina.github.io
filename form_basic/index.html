@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title></title>
+        <link href="css/style.css" rel="stylesheet"
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <h2>Questionare</h2>
+                <h4>Get to know more about me</h4>
+                <p>What is your name?</p>
+
+                <div>
+                    <label for="first_name_id">First Name:</label>
+                    <input type="text" id="first_name_id" name="first_name">
+                </div>
+                <div>
+                    <label for="last_name_id">Last Name:</label>
+                    <input type="text" id="last_name_id" name="last_name">
+                </div>
+                <p>What is your favorite album?</p>
+                <div>
+                    <label for="favorite_album">Favorite Album:</label>
+                    <input type="text" id="favorite_album_id" name="favorite_album">
+                </div>
+                <p>Where would you travel if you had one oppurtunity?</p>
+                <div>
+                    <label for="traveling_id">I would travel to:</label>
+                    <input type="text" id="traveling_id" name="traveling">
+                </div>
+                <p>If you could own an exotic animal what would it be?</p>
+                <div>
+                    <label for="pet_id">I would own:</label>
+                    <input type="text" id="pet_id" name="pet">
+                </div>
+            </fieldset>
+            <fieldset>
+                <p>select the best ice cream flavor</p>
+
+                <div>
+                    <input type="radio" id="vanilla_radio" name="icecream" value="vanilla">
+                    <label for="vanilla_radio">Vanilla</label>
+                </div>
+                <div>
+                    <input type="radio" id="chocolate_radio" name="icecream" value="chocolate">
+                    <label for="chocolate_radio">Chocolate</label>
+                </div>
+                <div>
+                    <input type="radio" id="strawberry_radio" name="icecream" value="strawberry">
+                    <label for="strawberry_radio">Strawberry</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="fast_food_id">
+                        What is your favorite fast food restaruant?
+                    </label>
+                    <select id="food_group_id" name="food_group">
+                        <option value="click more">click more</option>
+                        <option value="Wendys">Wendy's</option>
+                        <option value="KFC">KFC</option>
+                        <option value="tacobell">TacoBell</option>
+                        <option value="mcdonalds">McDonalds</option>
+                        <option value="chickfila">Chick-fil-a</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <input type="reset" value="RESET">
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
