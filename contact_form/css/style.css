@@ -1,0 +1,71 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas: 
+    ". header_area ."
+    ". main_area .";
+}
+
+header {
+    grid-area: header_area;
+}
+
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: indigo;
+    opacity: .9;
+}
+form {
+    background-color: white;
+    border: 2px solid #CCCCCC;
+    padding: 36px;
+}
+
+.text_input label {
+    display:flex;
+    padding-top: 20px;
+}
+
+.text_input input {
+
+    margin: 4px 0px 16px;
+    padding: 12px;
+    font-size: 18px;
+    font-family: verdana, sans-serif;
+    width: 300px;
+}
+
+#message_id {
+    width: 400px;
+    height: 100px;
+    margin-top: 4px;
+    padding: 10px;
+    font-family: verdana, sans-serif;
+    font-size: 18px;
+}
+
+input[type=submit] {
+    background: blue;
+    border: 0px;
+    border-radius: 10px;
+    padding:10px 5px 10px;
+    cursor:pointer;
+    color:white;
+ }
+
+ input[type=submit]:hover {
+    opacity: 0.9;
+ }
+
+ input[type=submit]:active {
+    background: whitesmoke;
+ }
+
+
+ header {
+    color: white;
+    padding: 10px 0px 10px;
+ }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Form</title>
+        <link href="css/style.css" rel="stylesheet"
+    </head>
+    <body>
+        <section id="grid_container">
+            <header>
+                <h1>Contact us</h1>
+                <h5>
+                    Got a question? We'd love to hear from you. 
+                    Send us a message and we'll respond as soon as possible
+                </h5>
+            </header>
+            <main>
+                <form>
+                        <div>
+                            <label for="help_id">
+                                <p>How can i help you?</p>
+                            </label>
+                            <select id="help_id" name="help_group">
+                                <option value="select what we can help you with">select what we can help you with</option>
+                                <option value="Photography">Photography</option>
+                                <option value="Branding">Branding</option>
+                                <option value="Websites">Website</option>
+                                <option value="Logos">Logo's</option>
+                                <option value="More">More...</option>
+                            </select>
+                        </div>
+                        <p>Name<p>
+
+                        <div>
+                            <label for="name_id"></label>
+                            <input type="text" id="name_id" name="name">
+                        </div>
+                    
+                        <p>Email<p>
+
+                        <div>
+                            <label for="email_id"></label>
+                            <input type="text" id="email_id" name="email_address">
+                        </div>
+
+                        <div class="text_input">
+                            <label for="message_id">Message</label>
+                            <textarea 
+                                id="message_id" 
+                                name="message"
+                                placeholder="This is the default text for a text area"></textarea>
+                        </div>
+                        <input type="submit" value="Send">
+                </form>
+            </main>
+        </section>
+    </body>
+</html>
