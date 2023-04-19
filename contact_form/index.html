@@ -18,6 +18,7 @@
             </header>
             <main>
                 <form>
+                    <form method="POST" action="https://getform.io/f/d60b2bcc-268b-4238-8d4e-498aae3fe30c">
                         <div>
                             <label for="help_id">
                                 <p>How can i help you?</p>
@@ -35,14 +36,26 @@
 
                         <div>
                             <label for="name_id"></label>
-                            <input type="text" id="name_id" name="name">
+                            <input 
+                            type="text" 
+                            id="name_id" 
+                            name="name"
+                            required
+                            minlength="2"
+                            placeholder="John Doe">
                         </div>
                     
                         <p>Email<p>
 
                         <div>
                             <label for="email_id"></label>
-                            <input type="text" id="email_id" name="email_address">
+                            <input 
+                            type="text"
+                            id="email_id" 
+                            name="email_address"
+                            required
+                            minlength="5"
+                            placeholder="JohnDoe@gmail.com">
                         </div>
 
                         <div class="text_input">
