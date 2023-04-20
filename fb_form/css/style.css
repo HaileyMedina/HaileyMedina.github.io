@@ -1,0 +1,67 @@
+
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h4 {
+    color:grey;
+    font-weight: 400;
+}
+form {
+    background-color: white;
+}
+fieldset {
+    background-color: white;
+}
+.name_input {
+    display: flex;
+    justify-content:space-between;
+}
+.text_input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.password_input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.gender {
+    display: flex;
+    text-align:center;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+footer {
+    font-weight:300;
+    font-size:x-small;
+}
+input[type=submit] {
+    background: green;
+    border: 0px;
+    border-radius: 10px;
+    padding:10px 10px 10px;
+    cursor:pointer;
+    color:white;
+    justify-content: center;
+    text-align: center;
+
+ }
+
+ input[type=submit]:hover {
+    opacity: 0.9;
+ }
+
+ input[type=submit]:active {
+    background: whitesmoke;
+ }
