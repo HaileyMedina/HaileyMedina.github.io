@@ -8,13 +8,14 @@
         <link href="css/style.css" rel="stylesheet"
     </head>
     <body>
-        <img src="images/fb_logo.svg"
+        
         <form>
             <fieldset>
                 <header>
-                <h1>Create a new account</h1>
-                <h4>It's quick and easy</h4>
-            </header>    
+                    <img src="images/fb_logo.svg"    
+                    <h1>Create a new account</h1>
+                    <h4>It's quick and easy</h4>
+                </header>    
             <hr>
             <div class="name_input">
                 <label for="name_id"></label>
@@ -134,17 +135,18 @@
                     <option value="1998">1998</option>
                     <option value="1996">1996</option>
                 </select>
+            </div>
+            <p>Gender</p>
             <div class="gender">
-                <p>Gender</p>
-                <div>
+                <div class="gender_radio">
                     <input type="radio" id="female_radio" name="gender" value="female">
                     <label for="female_radio">Female</label>
                 </div>
-                <div>
+                <div class="gender_radio">
                     <input type="radio" id="male_radio" name="gender" value="male">
                     <label for="male_radio">Male</label>
                 </div>
-                <div>
+                <div class="gender_radio">
                     <input type="radio" id="custom_radio" name="gender" value="custom">
                     <label for="custom_radio">Custom</label>
                 </div>

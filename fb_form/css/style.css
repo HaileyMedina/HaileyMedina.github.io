@@ -22,7 +22,9 @@ fieldset {
 }
 .name_input {
     display: flex;
-    justify-content:space-between;
+}
+.name_input input{
+    flex:1
 }
 .text_input {
     display: flex;
@@ -40,8 +42,13 @@ fieldset {
     text-align:center;
     flex-direction: row;
     justify-content:space-between;
+    padding: 10px;
 }
-
+.gender_radio {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
 footer {
     font-weight:300;
     font-size:x-small;
