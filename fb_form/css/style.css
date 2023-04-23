@@ -10,6 +10,18 @@ header {
     justify-content: center;
     text-align: center;
 }
+header h1{
+margin-bottom: 0px;
+}
+header h4{
+padding-top: 0px;
+color: #606770;
+}
+img {
+    background-color: lightgrey;
+    background-size: cover;
+    margin: auto;
+}
 h4 {
     color:grey;
     font-weight: 400;
@@ -17,26 +29,50 @@ h4 {
 form {
     background-color: white;
 }
+
 fieldset {
     background-color: white;
 }
+/* NAME INPUT */
 .name_input {
     display: flex;
+    padding:12px;
+    font-size: 15px;
+    line-height: 16px;
 }
 .name_input input{
     flex:1
 }
-.text_input {
+.name_input :invalid {
+    background-color: white;
+    border: 1px solid red;
+}
+/* EMAIL/NUMBER INPUT */
+.email_input {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 16px;
+}
+.email_input :invalid {
+    background-color:white;
+    border: 1px solid red;
 }
 
+/* PASSWORD */
 .password_input {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 16px;
 }
+.password_input :invalid {
+    background-color: white;
+    border: 1px solid red;
+}
+/* GENDER RADIO */
 .gender {
     display: flex;
     text-align:center;
@@ -53,20 +89,32 @@ footer {
     font-weight:300;
     font-size:x-small;
 }
+footer h2 {
+    font-family:sans-serif;
+    color: #1877f2;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+/* SIGN UP BUTTON */
 input[type=submit] {
-    background: green;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: rgb(18, 196, 18);
     border: 0px;
-    border-radius: 10px;
-    padding:10px 10px 10px;
+    border-radius: 5px;
+    padding:10px 50px 10px;
     cursor:pointer;
     color:white;
     justify-content: center;
     text-align: center;
-
+    margin: auto;
+    font-size:30px
  }
 
  input[type=submit]:hover {
-    opacity: 0.9;
+    opacity: 0.5;
  }
 
  input[type=submit]:active {
