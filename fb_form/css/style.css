@@ -1,4 +1,4 @@
-
+/* HEADER */
 body {
     background-color: lightgrey;
     font-family: sans-serif;
@@ -43,9 +43,20 @@ fieldset {
 .name_input input{
     flex:1
 }
-.name_input :invalid {
+
+#name_id:not(:focus):not(:placeholder-shown):invalid{
     background-color: white;
     border: 1px solid red;
+}
+.first_name {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.last_name {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
 }
 /* EMAIL/NUMBER INPUT */
 .email_input {
@@ -55,11 +66,16 @@ fieldset {
     font-size: 15px;
     line-height: 16px;
 }
-.email_input :invalid {
+
+#number_id:not(:focus):not(:placeholder-shown):invalid {
     background-color:white;
     border: 1px solid red;
 }
-
+.email_in {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
 /* PASSWORD */
 .password_input {
     display: flex;
@@ -68,9 +84,37 @@ fieldset {
     font-size: 15px;
     line-height: 16px;
 }
-.password_input :invalid {
+#password_id:not(:focus):not(:placeholder-shown):invalid{
     background-color: white;
     border: 1px solid red;
+}
+.password_in {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* BIRTHDAY */
+.birthday_input{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px;
+    text-align:center;
+}
+.month_input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:5px;
+}
+.day_input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:5px;
+}
+.year_input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:5px;
 }
 /* GENDER RADIO */
 .gender {
@@ -82,9 +126,10 @@ fieldset {
 }
 .gender_radio {
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
 }
+/* FOOTER */
 footer {
     font-weight:300;
     font-size:x-small;

@@ -9,7 +9,7 @@
     </head>
     <body>
         
-        <form>
+        <form method="POST" action="https://getform.io/f/d60b2bcc-268b-4238-8d4e-498aae3fe30c">
             <img src="images/fb_logo.svg"
             <fieldset>
                 <header>   
@@ -19,7 +19,7 @@
             <hr>
             <div class="name_input">
                 <label for="name_id"></label>
-                <input 
+                <input class="first_name"
                     required
                     minlength="2"    
                     maxlength="100"    
@@ -27,7 +27,7 @@
                     id="name_id" 
                     name="name"
                     placeholder="First Name">
-                <input 
+                <input class="last_name"
                     required
                     minlength="2"
                     maxlength="100"
@@ -39,7 +39,7 @@
             <div>
                 <div class="email_input">
                     <label for="email_id"></label>
-                    <input 
+                    <input class="email_in"
                     required
                     minlength="7"
                     maxlength="100"
@@ -52,7 +52,7 @@
             <div>
                 <div class="password_input">
                     <label for="password_id"></label>
-                    <input 
+                    <input class="password_in"
                     required
                     minlength="2"
                     maxlength="100"
@@ -62,11 +62,11 @@
                     placeholder="New password">
                 </div>
             </div>
-            <div>
+            <p>Birthday</p>
+            <div class="birthday_input">
                 <label for="birthday_id">
-                    <p>Birthday</p>
                 </label>
-                <select id="birthday_id" name="birthday_group">
+                <select id="birthday_id" name="birthday_group" class="month_input">
                     <option value="Jan">Jan</option>
                     <option value="Feb">Feb</option>
                     <option value="March">March</option>
@@ -80,7 +80,7 @@
                     <option value="November">November</option>
                     <option value="December">December</option>
                 </select>
-                <select>
+                <select class="day_input">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -113,7 +113,7 @@
                     <option value="30">30</option>
                     <option value="31">31</option>
                 </select>
-                <select>
+                <select class="year_input">
                     <option value="2012">2012</option>
                     <option value="2011">2011</option>
                     <option value="2010">2010</option>
