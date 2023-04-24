@@ -16,6 +16,8 @@ h2,
 h3,
 a {
     font-family: Lobster;
+    color:#e1a177;
+    text-shadow: 1px 2px 2px black;
 }
 
 h4,
@@ -54,7 +56,7 @@ footer a:hover {
 nav {
     align-items: center;
     display: flex;
-    margin: 0 24px;
+    margin: 0px 24px;
 }
 
 footer {
@@ -79,7 +81,7 @@ footer {
 
 nav .social_media {
     justify-content: flex-end;
-    padding-left: 0;
+    padding-left: 0px;
 }
 
 .social_media i {
@@ -100,8 +102,8 @@ footer a:hover {
 nav ul,
 nav h2 {
     flex: 1;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 footer ul {
@@ -110,6 +112,12 @@ footer ul {
 
 #carousel_container {
     margin-bottom: 20px;
+}
+.bottom_logo {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
 }
 /*****************************************************************************
   Button Styles
