@@ -1,0 +1,138 @@
+
+#hero #hero_content {
+    background-image: url('images/hulu-bg.jpeg');
+}
+
+body {
+    background-image: url('images/hulu-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+nav {
+    top: 0px;
+}
+
+nav ul {
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    justify-content:space-between;
+    margin: auto;
+    padding: 24px;
+    text-align: center;
+    color:white
+}
+
+nav ul li img {
+    height: 20%;
+    width: 20%;
+}
+#div_1 h4 {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color:#1CE783;
+}
+
+#div_1 h2 {
+    color:white;
+    text-align:center;
+
+}
+
+.hulu_disney {
+    text-align: center;
+    margin: auto;
+    padding: 15px; 
+}
+
+.sign_up {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign_up .both{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: #1CE783;
+    border: 0px;
+    border-radius: 2px;
+    padding:1px 50px 1px;
+    cursor:pointer;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size:30px
+ }
+
+ input[type=submit]:hover {
+    opacity: 0.5;
+ }
+
+ input[type=submit]:active {
+    background: whitesmoke;
+ }
+
+ .sign_up .terms {
+    background: none;
+    color: inherit;
+    padding: 5px;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color:white;
+ }
+
+ .sign_up .hulu {
+    background: none;
+    color: inherit;
+    padding: 10px;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color:white;
+ }
+ .three {
+   border: 1px solid white;
+   background:none;
+   color:white;
+   padding: 5px;
+   border-radius: 2px;
+   float: right;
+ }
+
+ .terms {
+    background: none;
+    color: inherit;
+    padding: 5px;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color:white;
+    float: right;
+ }
+ .banner img {
+    float: left;
+    width:40%;
+ }
+ .banner h2 {
+    color:white;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 12px;
+    font-weight: 200px;
+ }
