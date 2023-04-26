@@ -1,0 +1,221 @@
+/* NAV */
+#hero {
+    background-image: url("../images/hulu-bg.jpeg");
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    display:block;
+    background-color: black;
+}
+
+nav {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 0px;
+    padding:0px;
+
+}
+
+nav ul {
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    justify-content:space-between;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color:white;
+}
+
+nav ul li img {
+    height: 20%;
+    width: 20%;
+}
+#div_1 h4 {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color:#1CE783;
+    position: relative;
+}
+/* SUBSCRIPTION */
+
+#div_1 h2 {
+    color:white;
+    text-align:center;
+
+}
+
+.hulu_disney {
+    text-align: center;
+    margin: auto;
+    padding: 15px; 
+}
+
+.sign_up {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign_up .both{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: #1CE783;
+    border: 0px;
+    border-radius: 2px;
+    padding:1px 50px 1px;
+    cursor:pointer;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size:30px
+ }
+
+ input[type=submit]:hover {
+    opacity: 0.5;
+ }
+
+ input[type=submit]:active {
+    background: whitesmoke;
+ }
+
+ .sign_up .terms {
+    background: none;
+    color: inherit;
+    padding: 5px;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color:white;
+ }
+
+ .sign_up .hulu {
+    background: none;
+    color: inherit;
+    padding: 10px;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color:white;
+ }
+/* BANNER */
+
+ .three {
+   border: 1px solid white;
+   background:none;
+   color:white;
+   padding: 5px;
+   border-radius: 2px;
+   float: right;
+ }
+
+ .terms {
+    background: none;
+    color: inherit;
+    padding: 1px;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color:white;
+    float: right;
+ }
+ .banner img {
+    float: left;
+    width:40%;
+ }
+ .banner h2 {
+    color:white;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 12px;
+    font-weight: 200px;
+ }
+ /* SHOWCASE */
+ 
+
+ .promo h4 {
+    color:#1CE783;
+    font-weight: 400;
+    text-align: center;
+ }
+ .promo h2 {
+    color: white;
+    text-align: center;
+ }
+ .promo h3 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+ }
+
+/* CARDS */
+ #four_cards {
+    display:flex;
+    flex-shrink: 50%;
+    height: 20%;
+    width:20%;
+ }
+
+ .card1 {
+    color: white;
+    background-image: url("../images/bobsburgers.jpeg");
+    font-size: 8px;
+ }
+.card1 h1 {
+
+ }
+.card1 h2 {
+    font-weight: 300;
+}
+
+.card2 {
+    color: white;
+    background-image: url("../images/prey.jpeg");
+    font-size: 8px;
+ }
+
+.card2 h1 {
+
+ }
+.card2 h2 {
+    font-weight: 300;
+} 
+
+ .card3 {
+    color: white;
+    background-image: url("../images/handmaidstale.jpeg");
+    font-size: 8px;
+ }
+.card3 h1 {
+
+ }
+.card3 h2 {
+    font-weight: 300;
+}
+
+.card4 {
+    color: white;
+    background-image: url("../images/houseofdragon.jpeg");
+    font-size: 8px;
+ }
+.card4 h1 {
+
+ }
+.card4 h2 {
+    font-weight: 300;
+}
