@@ -12,20 +12,17 @@ body {
 }
 
 nav {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    margin-top: 0px;
-    padding:0px;
-
+    padding: 24px 36px;
+    background: linear-gradient(to bottom, #000000DD, #00000000);
 }
 
 nav ul {
     display:flex;
     margin: 0px;
     padding: 0px;
-    text-align: center;
+    align-items: center;
     margin-top: 0px;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -40,8 +37,7 @@ nav ul li {
 }
 
 nav ul li img {
-    height: 20%;
-    width: 20%;
+    width: 60px;
 }
 #div_1 h4 {
     text-align: center;
@@ -49,6 +45,18 @@ nav ul li img {
     padding: 10px;
     color:#1CE783;
     position: relative;
+}
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+}
+
+nav a:hover {
+    background-color: rgb(93, 92, 92);
 }
 /* SUBSCRIPTION */
 
@@ -113,38 +121,58 @@ nav ul li img {
     text-decoration: underline;
     color:white;
  }
-/* BANNER */
 
- .three {
-   border: 1px solid white;
-   background:none;
-   color:white;
-   padding: 5px;
-   border-radius: 2px;
-   float: right;
- }
+ /* FOOTER */
+ footer {
+    display: flex;
+    align-items: center;
+    padding: 12px 36px;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
- .terms {
-    background: none;
-    color: inherit;
-    padding: 1px;
-    font: inherit;
-    border: none;
-    cursor: pointer;
-    text-decoration: underline;
-    color:white;
-    float: right;
- }
- .banner img {
-    float: left;
-    width:40%;
- }
- .banner h2 {
-    color:white;
-    font-family: "Graphik Web",sans-serif;
-    font-size: 12px;
-    font-weight: 200px;
- }
+footer #footer_image_container {
+    width: 250px;
+}
+
+footer img {
+    width: 100%;
+}
+
+.three_link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    transition:
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.three_link:hover {
+    background-color: white;
+    color: black;
+}
+
+.terms_link {
+    display: block;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#footer_center {
+    margin: 0px 24px;
+    flex: 1;
+}
+
+#footer_center p {
+    color: white;
+    font-size: 22px;
+}
  /* SHOWCASE */
  
 
