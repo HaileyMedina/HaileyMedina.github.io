@@ -9,22 +9,22 @@ body {
     background-size: cover;
 }
 
-nav {
-    padding: 24px 36px;
-    background-color: black;
-}
 
 nav ul {
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding: 24px 36px;
 }
 
 nav img {
+    display:inline-block;
     width: 60px;
+    margin-right: 10px;
+    justify-content: space-between;
 }
 
 nav a {
@@ -35,18 +35,22 @@ nav a {
     transition: background-color 0.5s;
 }
 
-.signup { 
+.signup {
+    display:inline-block;
     background-color: #0063e5;
 }
 .signup:hover{
     opacity: 70%;
 }
+
 .login {
+    display: inline-block;
     border: 1px solid white;
 }
 .login:hover{
     background-color: #0063e5;
 }
+
 #hero_content {
     display: flex;
     flex-direction: column;
@@ -54,10 +58,9 @@ nav a {
 }
 #hero_content .email_input {
     display:flex;
-    background-color: darkgray;
 }
-.email_input {
-    background-color: darkgray;
+#number_id {
+    background-color: darkgrey;
 }
 
 #hero_content a {
